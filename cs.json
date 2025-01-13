@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@vocab": "https://example.com/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "name": "foaf:name",
+    "homepage": "foaf:homepage",
+    "knows": "foaf:knows",
+    "Person": "foaf:Person"
+  }
+}
