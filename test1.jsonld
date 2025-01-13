@@ -1,0 +1,15 @@
+{
+ "@context": "https://raw.githubusercontent.com/tekrajchhetri/test/refs/heads/master/cs.jsonld",
+  "name": "Alice",
+  "homepage": "https://alice.example.com",
+  "knows": [
+    {
+      "name": "Bob",
+      "homepage": "https://bob.example.com"
+    },
+    {
+      "name": "Carol",
+      "homepage": "https://carol.example.com"
+    }
+  ]
+}
