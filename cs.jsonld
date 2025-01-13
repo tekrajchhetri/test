@@ -1,6 +1,7 @@
 {
   "@context": {
     "@vocab": "https://example.com/",
+    "@base": "https://example.com/person/",
     "foaf": "http://xmlns.com/foaf/0.1/",
    
     "homepage": "foaf:homepage",
