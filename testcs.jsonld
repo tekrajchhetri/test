@@ -193,7 +193,7 @@
       "schema": "http://schema.org/",
       "skos": "http://www.w3.org/2004/02/skos/core#",
       "xsd": "http://www.w3.org/2001/XMLSchema#",
-      "@base": "https://identifiers.org/brain-bican/vocab/",
+      "": "https://identifiers.org/brain-bican/vocab/",
       "@vocab": "https://identifiers.org/brain-bican/vocab/",
       "annotations": {
          "@type": "@id",
