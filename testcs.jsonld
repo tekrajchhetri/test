@@ -1,17 +1,26 @@
 {
   "@context": {
     "@vocab": "https://identifiers.org/brain-bican/vocab/",
-    "AGRKB": "https://www.alliancegenome.org/",
+    "AGRKB": {
+      "@id": "https://www.alliancegenome.org/",
+      "@type": "@id"
+    },
     "AspGD": {
       "@id": "http://www.aspergillusgenome.org/cgi-bin/locus.pl?dbid=",
-      "@prefix": true
+      "@type": "@id"
     },
     "BFO": {
       "@id": "http://purl.obolibrary.org/obo/BFO_",
       "@prefix": true
     },
-    "BIOGRID": "http://identifiers.org/biogrid/",
-    "BIOSAMPLE": "http://identifiers.org/biosample/",
+    "BIOGRID": {
+      "@id": "http://identifiers.org/biogrid/",
+      "@type": "@id"
+    },
+    "BIOSAMPLE": {
+      "@id": "http://identifiers.org/biosample/",
+      "@type": "@id"
+    },
     "BTO": {
       "@id": "http://purl.obolibrary.org/obo/BTO_",
       "@prefix": true
@@ -20,9 +29,18 @@
       "@id": "http://purl.obolibrary.org/obo/CHEBI_",
       "@prefix": true
     },
-    "CHEMBL.TARGET": "http://identifiers.org/chembl.target/",
-    "CPT": "https://www.ama-assn.org/practice-management/cpt/",
-    "DRUGBANK": "http://identifiers.org/drugbank/",
+    "CHEMBL.TARGET": {
+      "@id": "http://identifiers.org/chembl.target/",
+      "@type": "@id"
+    },
+    "CPT": {
+      "@id": "https://www.ama-assn.org/practice-management/cpt/",
+      "@type": "@id"
+    },
+    "DRUGBANK": {
+      "@id": "http://identifiers.org/drugbank/",
+      "@type": "@id"
+    },
     "EDAM-DATA": {
       "@id": "http://edamontology.org/data_",
       "@prefix": true
@@ -43,8 +61,14 @@
       "@id": "http://www.ebi.ac.uk/efo/EFO_",
       "@prefix": true
     },
-    "ENSEMBL": "http://identifiers.org/ensembl/",
-    "FB": "http://identifiers.org/fb/",
+    "ENSEMBL": {
+      "@id": "http://identifiers.org/ensembl/",
+      "@type": "@id"
+    },
+    "FB": {
+      "@id": "http://identifiers.org/fb/",
+      "@type": "@id"
+    },
     "FMA": {
       "@id": "http://purl.obolibrary.org/obo/FMA_",
       "@prefix": true
@@ -53,7 +77,10 @@
       "@id": "http://purl.obolibrary.org/obo/GENO_",
       "@prefix": true
     },
-    "GOLD.META": "http://identifiers.org/gold.meta/",
+    "GOLD.META": {
+      "@id": "http://identifiers.org/gold.meta/",
+      "@type": "@id"
+    },
     "GOREL": {
       "@id": "http://purl.obolibrary.org/obo/GOREL_",
       "@prefix": true
@@ -62,13 +89,22 @@
       "@id": "http://www.ebi.ac.uk/ancestro/ancestro_",
       "@prefix": true
     },
-    "HGNC": "http://identifiers.org/hgnc/",
+    "HGNC": {
+      "@id": "http://identifiers.org/hgnc/",
+      "@type": "@id"
+    },
     "MONDO": {
       "@id": "http://purl.obolibrary.org/obo/MONDO_",
       "@prefix": true
     },
-    "NBO-PROPERTY": "http://purl.obolibrary.org/obo/nbo#",
-    "NCBIAssembly": "https://www.ncbi.nlm.nih.gov/assembly/",
+    "NBO-PROPERTY": {
+      "@id": "http://purl.obolibrary.org/obo/nbo#",
+      "@type": "@id"
+    },
+    "NCBIAssembly": {
+      "@id": "https://www.ncbi.nlm.nih.gov/assembly/",
+      "@type": "@id"
+    },
     "NCBITaxon": {
       "@id": "http://purl.obolibrary.org/obo/NCBITaxon_",
       "@prefix": true
@@ -79,9 +115,18 @@
     },
     "authority": {
       "@context": {
-        "text": "skos:notation",
-        "description": "skos:prefLabel",
-        "meaning": "@id"
+        "text": {
+          "@id": "http://www.w3.org/2004/02/skos/core#notation",
+          "@type": "xsd:string"
+        },
+        "description": {
+          "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "@type": "xsd:string"
+        },
+        "meaning": {
+          "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          "@type": "@id"
+        }
       },
       "@id": "authority"
     }
