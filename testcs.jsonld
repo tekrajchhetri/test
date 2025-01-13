@@ -4,6 +4,7 @@
       "source": "genome_annotation.yaml"
    },
    "@context": {
+       "@base": "https://example.org/",
       "AGRKB": "https://www.alliancegenome.org/",
       "AspGD": {
          "@id": "http://www.aspergillusgenome.org/cgi-bin/locus.pl?dbid=",
