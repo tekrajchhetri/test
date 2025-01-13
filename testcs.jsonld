@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "@vocab": "https://identifiers.org/brain-bican/vocab/",
+    "AGRKB": "https://www.alliancegenome.org/",
+    "AspGD": {
+      "@id": "http://www.aspergillusgenome.org/cgi-bin/locus.pl?dbid=",
+      "@prefix": true
+    },
+    "BFO": {
+      "@id": "http://purl.obolibrary.org/obo/BFO_",
+      "@prefix": true
+    },
+    "BIOGRID": "http://identifiers.org/biogrid/",
+    "BIOSAMPLE": "http://identifiers.org/biosample/",
+    "BTO": {
+      "@id": "http://purl.obolibrary.org/obo/BTO_",
+      "@prefix": true
+    },
+    "CHEBI": {
+      "@id": "http://purl.obolibrary.org/obo/CHEBI_",
+      "@prefix": true
+    },
+    "CHEMBL.TARGET": "http://identifiers.org/chembl.target/",
+    "CPT": "https://www.ama-assn.org/practice-management/cpt/",
+    "DRUGBANK": "http://identifiers.org/drugbank/",
+    "EDAM-DATA": {
+      "@id": "http://edamontology.org/data_",
+      "@prefix": true
+    },
+    "EDAM-FORMAT": {
+      "@id": "http://edamontology.org/format_",
+      "@prefix": true
+    },
+    "EDAM-OPERATION": {
+      "@id": "http://edamontology.org/operation_",
+      "@prefix": true
+    },
+    "EDAM-TOPIC": {
+      "@id": "http://edamontology.org/topic_",
+      "@prefix": true
+    },
+    "EFO": {
+      "@id": "http://www.ebi.ac.uk/efo/EFO_",
+      "@prefix": true
+    },
+    "ENSEMBL": "http://identifiers.org/ensembl/",
+    "FB": "http://identifiers.org/fb/",
+    "FMA": {
+      "@id": "http://purl.obolibrary.org/obo/FMA_",
+      "@prefix": true
+    },
+    "GENO": {
+      "@id": "http://purl.obolibrary.org/obo/GENO_",
+      "@prefix": true
+    },
+    "GOLD.META": "http://identifiers.org/gold.meta/",
+    "GOREL": {
+      "@id": "http://purl.obolibrary.org/obo/GOREL_",
+      "@prefix": true
+    },
+    "HANCESTRO": {
+      "@id": "http://www.ebi.ac.uk/ancestro/ancestro_",
+      "@prefix": true
+    },
+    "HGNC": "http://identifiers.org/hgnc/",
+    "MONDO": {
+      "@id": "http://purl.obolibrary.org/obo/MONDO_",
+      "@prefix": true
+    },
+    "NBO-PROPERTY": "http://purl.obolibrary.org/obo/nbo#",
+    "NCBIAssembly": "https://www.ncbi.nlm.nih.gov/assembly/",
+    "NCBITaxon": {
+      "@id": "http://purl.obolibrary.org/obo/NCBITaxon_",
+      "@prefix": true
+    },
+    "RO": {
+      "@id": "http://purl.obolibrary.org/obo/RO_",
+      "@prefix": true
+    },
+    "authority": {
+      "@context": {
+        "text": "skos:notation",
+        "description": "skos:prefLabel",
+        "meaning": "@id"
+      },
+      "@id": "authority"
+    }
+  }
+}
