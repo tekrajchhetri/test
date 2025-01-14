@@ -5,6 +5,7 @@
    },
    "@context": {
        "@base": "https://example.org/",
+      "id": "@id",
       "AGRKB": "https://www.alliancegenome.org/",
       "AspGD": {
          "@id": "http://www.aspergillusgenome.org/cgi-bin/locus.pl?dbid=",
@@ -294,8 +295,7 @@
       "has_unit": {
          "@type": "UO:0000000",
          "@id": "biolink:has_unit"
-      },
-      "id": "@id",
+      }, 
       "in_taxon": {
          "@type": "@id",
          "@id": "biolink:in_taxon"
