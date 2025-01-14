@@ -220,7 +220,8 @@
          "@id": "authority"
       },
       "category": {
-         "@id": "biolink:category"
+         "@id": "biolink:category",
+         "@type": "@id"
       },
       "checksum_algorithm": {
          "@context": {
@@ -260,7 +261,7 @@
       },
       "referenced_in": {
          "@type": "@id",
-         "@id": "referenced_in"
+         "@id": "biolink:referenced_in"
       },
       "reference_assembly": {
          "@type": "@id",
