@@ -218,7 +218,7 @@
       },
       "category": {
          "@type": "@id",
-      "@id": "biolink:category"
+      "@id": "rdf:type"
       },
       "checksum_algorithm": {
          "@context": {
