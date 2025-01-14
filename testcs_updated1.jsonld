@@ -346,6 +346,7 @@
          "@id": "biolink:synonym"
       },
       "type": {
+         "@type": "@id",
          "@id": "rdf:type"
       },
       "version": {
