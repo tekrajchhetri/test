@@ -4,7 +4,10 @@
       "source": "genome_annotation.yaml"
    },
    "@context": {
-       "@base": "https://example.org/",
+       
+      "@base": "https://identifiers.org/brain-bican/vocab/",
+     
+      "@vocab": "https://identifiers.org/brain-bican/vocab/",
       "id": "@id",
       "AGRKB": "https://www.alliancegenome.org/",
       "AspGD": {
@@ -194,9 +197,7 @@
       "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
       "schema": "http://schema.org/",
       "skos": "http://www.w3.org/2004/02/skos/core#",
-      "xsd": "http://www.w3.org/2001/XMLSchema#",
-      "": "https://identifiers.org/brain-bican/vocab/",
-      "@vocab": "https://identifiers.org/brain-bican/vocab/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#", 
       "annotations": {
          "@type": "@id",
          "@id": "annotations"
