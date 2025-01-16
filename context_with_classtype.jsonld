@@ -1,6 +1,7 @@
 {
   "@context": { 
     "foaf": "http://xmlns.com/foaf/0.1/",
+    "@vocab": "http://xmlns.com/foaf/0.1/",
    
     "homepage": "foaf:homepage",
     "knows": "foaf:knows",
